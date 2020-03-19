@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logobrain"
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_question"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/question"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/reminder_field"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/days_question"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/question"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/monday"
+        android:layoutDirection="rtl"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tuesday"
+        android:layoutDirection="rtl"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wednesday"
+        android:layoutDirection="rtl"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/thursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thursday"
+        android:layoutDirection="rtl"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friday"
+        android:layoutDirection="rtl"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saturday"
+        android:layoutDirection="rtl"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sunday"
+        android:layoutDirection="rtl"
+        android:textSize="18sp"/>
+
+</LinearLayout>
