@@ -15,4 +15,8 @@
     <string name="sunday">Sunday</string>
     <string name="time_question">At what time?</string>
     <string name="time_field">Set time</string>
+    <string name="btnDone">Done</string>
+    <string name="exampleBoardTitle">Practice</string>
+    <string name="exampleboardDays">Everyday</string>
+    <string name="exampleBoardTime">17:00</string>
 </resources>
