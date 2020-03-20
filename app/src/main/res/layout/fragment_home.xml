@@ -12,16 +12,14 @@
         android:src="@drawable/logobrain" />
 
     <GridView
+        android:id="@+id/gridview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:numColumns="3">
-
-        <!--<Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/round_button" />-->
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:padding="5dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp">
 
     </GridView>
-
 
 </LinearLayout>
